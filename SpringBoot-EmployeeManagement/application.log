@@ -1,0 +1,379 @@
+2026-10-01T13:17:54.514+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Starting SpringBootEmployeeManagementApplication using Java 17.0.8.1 with PID 14848 (E:\SpringBoot\SpringBoot-EmployeeManagement\target\classes started by Dell in E:\SpringBoot\SpringBoot-EmployeeManagement)
+2026-10-01T13:17:54.539+05:30 DEBUG 14848 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Running with Spring Boot v4.0.0, Spring v7.0.1
+2026-10-01T13:17:54.545+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : No active profile set, falling back to 1 default profile: "default"
+2026-10-01T13:17:58.665+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-01T13:17:58.841+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 135 ms. Found 2 JPA repository interfaces.
+2026-10-01T13:18:01.184+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-01T13:18:01.233+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-01T13:18:01.235+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2026-10-01T13:18:01.507+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 6670 ms
+2026-10-01T13:18:02.308+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-01T13:18:02.459+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2026-10-01T13:18:03.723+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-01T13:18:03.842+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.HikariDataSource       : MyPool - Starting...
+2026-10-01T13:18:04.449+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.pool.HikariPool        : MyPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@703a2bc9
+2026-10-01T13:18:04.454+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.HikariDataSource       : MyPool - Start completed.
+2026-10-01T13:18:04.727+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/empdb1?useSSL=false]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.35
+	Default catalog/schema: empdb1/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-01T13:18:07.073+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-01T13:18:08.432+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-01T13:18:08.707+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-01T13:18:10.423+05:30  WARN 14848 --- [SpringBoot-EmployeeManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-01T13:18:10.740+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-10-01T13:18:11.159+05:30 DEBUG 14848 --- [SpringBoot-EmployeeManagement] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-10-01T13:18:12.816+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2026-10-01T13:18:13.058+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-01T13:18:13.100+05:30  INFO 14848 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Started SpringBootEmployeeManagementApplication in 20.565 seconds (process running for 22.367)
+2026-10-01T13:18:13.264+05:30  WARN 14848 --- [SpringBoot-EmployeeManagement] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-10-01T13:18:13.265+05:30  WARN 14848 --- [SpringBoot-EmployeeManagement] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-10-01T13:19:00.009+05:30 ERROR 14848 --- [SpringBoot-EmployeeManagement] [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "com.springboot.basic.repository.EmployeeRepository.findAll()" because "this.employeeRepository" is null
+	at com.springboot.basic.scheduler.AttendanceScheduler.markAbsentEmployees(AttendanceScheduler.java:39) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:128) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$1(ScheduledMethodRunnable.java:122) ~[spring-context-7.0.1.jar:7.0.1]
+	at io.micrometer.observation.Observation.observe(Observation.java:499) ~[micrometer-observation-1.16.0.jar:1.16.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:122) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:88) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:94) ~[spring-context-7.0.1.jar:7.0.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2026-10-01T13:20:00.016+05:30 ERROR 14848 --- [SpringBoot-EmployeeManagement] [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "com.springboot.basic.repository.EmployeeRepository.findAll()" because "this.employeeRepository" is null
+	at com.springboot.basic.scheduler.AttendanceScheduler.markAbsentEmployees(AttendanceScheduler.java:39) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:128) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$1(ScheduledMethodRunnable.java:122) ~[spring-context-7.0.1.jar:7.0.1]
+	at io.micrometer.observation.Observation.observe(Observation.java:499) ~[micrometer-observation-1.16.0.jar:1.16.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:122) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:88) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:94) ~[spring-context-7.0.1.jar:7.0.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2026-10-01T13:21:00.478+05:30 ERROR 14848 --- [SpringBoot-EmployeeManagement] [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "com.springboot.basic.repository.EmployeeRepository.findAll()" because "this.employeeRepository" is null
+	at com.springboot.basic.scheduler.AttendanceScheduler.markAbsentEmployees(AttendanceScheduler.java:39) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:128) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$1(ScheduledMethodRunnable.java:122) ~[spring-context-7.0.1.jar:7.0.1]
+	at io.micrometer.observation.Observation.observe(Observation.java:499) ~[micrometer-observation-1.16.0.jar:1.16.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:122) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:88) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:94) ~[spring-context-7.0.1.jar:7.0.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2026-10-01T13:23:29.405+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Starting SpringBootEmployeeManagementApplication using Java 17.0.8.1 with PID 2876 (E:\SpringBoot\SpringBoot-EmployeeManagement\target\classes started by Dell in E:\SpringBoot\SpringBoot-EmployeeManagement)
+2026-10-01T13:23:29.416+05:30 DEBUG 2876 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Running with Spring Boot v4.0.0, Spring v7.0.1
+2026-10-01T13:23:29.420+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : No active profile set, falling back to 1 default profile: "default"
+2026-10-01T13:23:33.582+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-01T13:23:33.789+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 165 ms. Found 2 JPA repository interfaces.
+2026-10-01T13:23:36.579+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-01T13:23:36.621+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-01T13:23:36.622+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2026-10-01T13:23:36.855+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 7223 ms
+2026-10-01T13:23:37.909+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-01T13:23:38.136+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2026-10-01T13:23:39.789+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-01T13:23:39.938+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.HikariDataSource       : MyPool - Starting...
+2026-10-01T13:23:40.513+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.pool.HikariPool        : MyPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@6956eb58
+2026-10-01T13:23:40.520+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.HikariDataSource       : MyPool - Start completed.
+2026-10-01T13:23:40.814+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/empdb1?useSSL=false]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.35
+	Default catalog/schema: empdb1/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-01T13:23:43.576+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-01T13:23:44.487+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-01T13:23:44.760+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-01T13:23:46.432+05:30  WARN 2876 --- [SpringBoot-EmployeeManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-01T13:23:46.750+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-10-01T13:23:47.174+05:30 DEBUG 2876 --- [SpringBoot-EmployeeManagement] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-10-01T13:23:49.129+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2026-10-01T13:23:49.376+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-01T13:23:49.418+05:30  INFO 2876 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Started SpringBootEmployeeManagementApplication in 21.698 seconds (process running for 23.231)
+2026-10-01T13:23:49.590+05:30  WARN 2876 --- [SpringBoot-EmployeeManagement] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-10-01T13:23:49.591+05:30  WARN 2876 --- [SpringBoot-EmployeeManagement] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-10-01T13:31:57.831+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Starting SpringBootEmployeeManagementApplication using Java 17.0.8.1 with PID 11988 (E:\SpringBoot\SpringBoot-EmployeeManagement\target\classes started by Dell in E:\SpringBoot\SpringBoot-EmployeeManagement)
+2026-10-01T13:31:57.846+05:30 DEBUG 11988 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Running with Spring Boot v4.0.0, Spring v7.0.1
+2026-10-01T13:31:57.854+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : No active profile set, falling back to 1 default profile: "default"
+2026-10-01T13:32:02.247+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-01T13:32:02.476+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 201 ms. Found 2 JPA repository interfaces.
+2026-10-01T13:32:05.046+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-01T13:32:05.095+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-01T13:32:05.096+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2026-10-01T13:32:05.359+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 7123 ms
+2026-10-01T13:32:06.221+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-01T13:32:06.398+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2026-10-01T13:32:07.843+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-01T13:32:08.007+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.HikariDataSource       : MyPool - Starting...
+2026-10-01T13:32:08.692+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.pool.HikariPool        : MyPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@27605b87
+2026-10-01T13:32:08.701+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.HikariDataSource       : MyPool - Start completed.
+2026-10-01T13:32:08.996+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/empdb1?useSSL=false]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.35
+	Default catalog/schema: empdb1/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-01T13:32:12.621+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-01T13:32:13.701+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-01T13:32:14.173+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-01T13:32:16.757+05:30  WARN 11988 --- [SpringBoot-EmployeeManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-01T13:32:17.215+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-10-01T13:32:19.325+05:30 DEBUG 11988 --- [SpringBoot-EmployeeManagement] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-10-01T13:32:21.781+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2026-10-01T13:32:22.242+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-01T13:32:22.286+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Started SpringBootEmployeeManagementApplication in 26.921 seconds (process running for 28.518)
+2026-10-01T13:32:22.529+05:30  WARN 11988 --- [SpringBoot-EmployeeManagement] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-10-01T13:32:22.530+05:30  WARN 11988 --- [SpringBoot-EmployeeManagement] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-10-01T13:32:52.084+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-01T13:32:52.085+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-01T13:32:52.095+05:30  INFO 11988 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2026-10-01T13:32:52.139+05:30 DEBUG 11988 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /attendance/check-in/1
+2026-10-01T13:32:53.533+05:30 DEBUG 11988 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-1] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2026-10-01T13:32:53.535+05:30 DEBUG 11988 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-1] o.s.s.w.a.www.BasicAuthenticationFilter  : Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=Deepak, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[FactorGrantedAuthority [authority=FACTOR_PASSWORD, issuedAt=2026-10-01T08:02:53.533573400Z]]]
+2026-10-01T13:32:53.549+05:30 DEBUG 11988 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /attendance/check-in/1
+2026-10-01T13:33:17.909+05:30 DEBUG 11988 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /attendance/check-in/2
+2026-10-01T13:33:18.083+05:30 DEBUG 11988 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-4] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2026-10-01T13:33:18.086+05:30 DEBUG 11988 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-4] o.s.s.w.a.www.BasicAuthenticationFilter  : Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=Deepak, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[FactorGrantedAuthority [authority=FACTOR_PASSWORD, issuedAt=2026-10-01T08:03:18.083513500Z]]]
+2026-10-01T13:33:18.088+05:30 DEBUG 11988 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /attendance/check-in/2
+2026-10-01T13:33:28.258+05:30 DEBUG 11988 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /attendance/check-in/3
+2026-10-01T13:33:28.434+05:30 DEBUG 11988 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-6] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2026-10-01T13:33:28.435+05:30 DEBUG 11988 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-6] o.s.s.w.a.www.BasicAuthenticationFilter  : Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=Deepak, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[FactorGrantedAuthority [authority=FACTOR_PASSWORD, issuedAt=2026-10-01T08:03:28.434399300Z]]]
+2026-10-01T13:33:28.437+05:30 DEBUG 11988 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /attendance/check-in/3
+2026-10-01T13:34:47.479+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Starting SpringBootEmployeeManagementApplication using Java 17.0.8.1 with PID 9588 (E:\SpringBoot\SpringBoot-EmployeeManagement\target\classes started by Dell in E:\SpringBoot\SpringBoot-EmployeeManagement)
+2026-10-01T13:34:47.490+05:30 DEBUG 9588 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Running with Spring Boot v4.0.0, Spring v7.0.1
+2026-10-01T13:34:47.493+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : No active profile set, falling back to 1 default profile: "default"
+2026-10-01T13:34:51.993+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-01T13:34:52.237+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 215 ms. Found 2 JPA repository interfaces.
+2026-10-01T13:34:56.123+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-01T13:34:56.170+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-01T13:34:56.171+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2026-10-01T13:34:56.442+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 8717 ms
+2026-10-01T13:34:57.427+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-01T13:34:57.639+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2026-10-01T13:34:59.620+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-01T13:34:59.942+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.HikariDataSource       : MyPool - Starting...
+2026-10-01T13:35:01.411+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.pool.HikariPool        : MyPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bac0be5
+2026-10-01T13:35:01.433+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.HikariDataSource       : MyPool - Start completed.
+2026-10-01T13:35:02.363+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/empdb1?useSSL=false]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.35
+	Default catalog/schema: empdb1/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-01T13:35:06.260+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-01T13:35:08.329+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-01T13:35:08.614+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-01T13:35:10.920+05:30  WARN 9588 --- [SpringBoot-EmployeeManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-01T13:35:11.251+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-10-01T13:35:11.814+05:30 DEBUG 9588 --- [SpringBoot-EmployeeManagement] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-10-01T13:35:15.123+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2026-10-01T13:35:15.449+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-01T13:35:15.513+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Started SpringBootEmployeeManagementApplication in 30.41 seconds (process running for 32.073)
+2026-10-01T13:35:15.949+05:30  WARN 9588 --- [SpringBoot-EmployeeManagement] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-10-01T13:35:15.950+05:30  WARN 9588 --- [SpringBoot-EmployeeManagement] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-10-01T13:35:19.605+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-01T13:35:19.606+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-01T13:35:19.614+05:30  INFO 9588 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2026-10-01T13:35:19.648+05:30 DEBUG 9588 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /attendance/check-in/1
+2026-10-01T13:35:20.207+05:30 DEBUG 9588 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2026-10-01T13:35:20.213+05:30 DEBUG 9588 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.s.w.a.www.BasicAuthenticationFilter  : Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=Deepak, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[FactorGrantedAuthority [authority=FACTOR_PASSWORD, issuedAt=2026-10-01T08:05:20.207414Z]]]
+2026-10-01T13:35:20.225+05:30 DEBUG 9588 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /attendance/check-in/1
+2026-10-01T13:41:42.457+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Starting SpringBootEmployeeManagementApplication using Java 17.0.8.1 with PID 17620 (E:\SpringBoot\SpringBoot-EmployeeManagement\target\classes started by Dell in E:\SpringBoot\SpringBoot-EmployeeManagement)
+2026-10-01T13:41:42.469+05:30 DEBUG 17620 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Running with Spring Boot v4.0.0, Spring v7.0.1
+2026-10-01T13:41:42.472+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : No active profile set, falling back to 1 default profile: "default"
+2026-10-01T13:41:46.726+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-01T13:41:46.875+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125 ms. Found 2 JPA repository interfaces.
+2026-10-01T13:41:50.188+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-01T13:41:50.303+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-01T13:41:50.304+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2026-10-01T13:41:51.020+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 8396 ms
+2026-10-01T13:41:52.240+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-01T13:41:52.526+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2026-10-01T13:41:54.292+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-01T13:41:54.438+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.HikariDataSource       : MyPool - Starting...
+2026-10-01T13:41:55.079+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.pool.HikariPool        : MyPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@6127ef86
+2026-10-01T13:41:55.086+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.HikariDataSource       : MyPool - Start completed.
+2026-10-01T13:41:55.395+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/empdb1?useSSL=false]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.35
+	Default catalog/schema: empdb1/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-01T13:41:58.624+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-01T13:41:59.425+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-01T13:41:59.695+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-01T13:42:01.833+05:30  WARN 17620 --- [SpringBoot-EmployeeManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-01T13:42:02.290+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-10-01T13:42:02.844+05:30 DEBUG 17620 --- [SpringBoot-EmployeeManagement] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-10-01T13:42:04.828+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2026-10-01T13:42:05.140+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-01T13:42:05.202+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Started SpringBootEmployeeManagementApplication in 24.091 seconds (process running for 25.457)
+2026-10-01T13:42:05.531+05:30  WARN 17620 --- [SpringBoot-EmployeeManagement] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-10-01T13:42:05.539+05:30  WARN 17620 --- [SpringBoot-EmployeeManagement] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-10-01T13:42:25.295+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-01T13:42:25.298+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-01T13:42:25.308+05:30  INFO 17620 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2026-10-01T13:42:25.347+05:30 DEBUG 17620 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /attendance/check-in/1
+2026-10-01T13:42:25.972+05:30 DEBUG 17620 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2026-10-01T13:42:25.979+05:30 DEBUG 17620 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.s.w.a.www.BasicAuthenticationFilter  : Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=Deepak, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[FactorGrantedAuthority [authority=FACTOR_PASSWORD, issuedAt=2026-10-01T08:12:25.972000300Z]]]
+2026-10-01T13:42:25.999+05:30 DEBUG 17620 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /attendance/check-in/1
+2026-10-01T14:30:07.790+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Starting SpringBootEmployeeManagementApplication using Java 17.0.8.1 with PID 1664 (E:\SpringBoot\SpringBoot-EmployeeManagement\target\classes started by Dell in E:\SpringBoot\SpringBoot-EmployeeManagement)
+2026-10-01T14:30:07.810+05:30 DEBUG 1664 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Running with Spring Boot v4.0.0, Spring v7.0.1
+2026-10-01T14:30:07.817+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : No active profile set, falling back to 1 default profile: "default"
+2026-10-01T14:30:12.088+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-01T14:30:12.292+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 171 ms. Found 2 JPA repository interfaces.
+2026-10-01T14:30:15.228+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-01T14:30:15.283+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-01T14:30:15.286+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2026-10-01T14:30:15.589+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 7474 ms
+2026-10-01T14:30:16.459+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-01T14:30:16.654+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2026-10-01T14:30:18.153+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-01T14:30:18.296+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.HikariDataSource       : MyPool - Starting...
+2026-10-01T14:30:18.956+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.pool.HikariPool        : MyPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d3a7f83
+2026-10-01T14:30:18.960+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.HikariDataSource       : MyPool - Start completed.
+2026-10-01T14:30:19.254+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/empdb1?useSSL=false]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.35
+	Default catalog/schema: empdb1/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-01T14:30:22.006+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-01T14:30:23.061+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-01T14:30:23.383+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-01T14:30:25.379+05:30  WARN 1664 --- [SpringBoot-EmployeeManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-01T14:30:25.704+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-10-01T14:30:26.224+05:30 DEBUG 1664 --- [SpringBoot-EmployeeManagement] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-10-01T14:30:28.089+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2026-10-01T14:30:28.538+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-01T14:30:28.585+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Started SpringBootEmployeeManagementApplication in 22.612 seconds (process running for 24.311)
+2026-10-01T14:30:28.790+05:30  WARN 1664 --- [SpringBoot-EmployeeManagement] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-10-01T14:30:28.791+05:30  WARN 1664 --- [SpringBoot-EmployeeManagement] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-10-01T14:30:55.527+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-01T14:30:55.528+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-01T14:30:55.535+05:30  INFO 1664 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2026-10-01T14:30:55.579+05:30 DEBUG 1664 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /attendance/check-in/1
+2026-10-01T14:30:56.497+05:30 DEBUG 1664 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2026-10-01T14:30:56.505+05:30 DEBUG 1664 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.s.w.a.www.BasicAuthenticationFilter  : Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=Deepak, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[FactorGrantedAuthority [authority=FACTOR_PASSWORD, issuedAt=2026-10-01T09:00:56.496335500Z]]]
+2026-10-01T14:30:56.529+05:30 DEBUG 1664 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /attendance/check-in/1
+2026-10-01T14:31:10.830+05:30 DEBUG 1664 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /attendance/check-in/2
+2026-10-01T14:31:11.098+05:30 DEBUG 1664 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-3] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2026-10-01T14:31:11.100+05:30 DEBUG 1664 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-3] o.s.s.w.a.www.BasicAuthenticationFilter  : Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=Deepak, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[FactorGrantedAuthority [authority=FACTOR_PASSWORD, issuedAt=2026-10-01T09:01:11.098638800Z]]]
+2026-10-01T14:31:11.103+05:30 DEBUG 1664 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /attendance/check-in/2
+2026-10-01T16:13:46.365+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Starting SpringBootEmployeeManagementApplication using Java 17.0.8.1 with PID 16280 (E:\SpringBoot\SpringBoot-EmployeeManagement\target\classes started by Dell in E:\SpringBoot\SpringBoot-EmployeeManagement)
+2026-10-01T16:13:46.384+05:30 DEBUG 16280 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Running with Spring Boot v4.0.0, Spring v7.0.1
+2026-10-01T16:13:46.388+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : No active profile set, falling back to 1 default profile: "default"
+2026-10-01T16:13:49.978+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-01T16:13:50.130+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127 ms. Found 2 JPA repository interfaces.
+2026-10-01T16:13:52.413+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-01T16:13:52.449+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-01T16:13:52.450+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2026-10-01T16:13:52.644+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 5992 ms
+2026-10-01T16:13:53.393+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-01T16:13:53.549+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2026-10-01T16:13:54.796+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-01T16:13:54.924+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.HikariDataSource       : MyPool - Starting...
+2026-10-01T16:13:55.576+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.pool.HikariPool        : MyPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@44ec4a38
+2026-10-01T16:13:55.581+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] com.zaxxer.hikari.HikariDataSource       : MyPool - Start completed.
+2026-10-01T16:13:55.840+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/empdb1?useSSL=false]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.35
+	Default catalog/schema: empdb1/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-01T16:13:58.117+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-01T16:13:59.315+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-01T16:13:59.858+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-01T16:14:01.960+05:30  WARN 16280 --- [SpringBoot-EmployeeManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-01T16:14:02.269+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-10-01T16:14:02.736+05:30 DEBUG 16280 --- [SpringBoot-EmployeeManagement] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-10-01T16:14:04.437+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2026-10-01T16:14:04.681+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-01T16:14:04.724+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [main] .SpringBootEmployeeManagementApplication : Started SpringBootEmployeeManagementApplication in 20.025 seconds (process running for 22.044)
+2026-10-01T16:14:04.909+05:30  WARN 16280 --- [SpringBoot-EmployeeManagement] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-10-01T16:14:04.910+05:30  WARN 16280 --- [SpringBoot-EmployeeManagement] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-10-01T16:14:25.914+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-01T16:14:25.920+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-01T16:14:25.938+05:30  INFO 16280 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2026-10-01T16:14:26.002+05:30 DEBUG 16280 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /attendance/check-in/2
+2026-10-01T16:14:26.910+05:30 DEBUG 16280 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2026-10-01T16:14:26.915+05:30 DEBUG 16280 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.s.w.a.www.BasicAuthenticationFilter  : Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=Deepak, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[FactorGrantedAuthority [authority=FACTOR_PASSWORD, issuedAt=2026-10-01T10:44:26.907477300Z]]]
+2026-10-01T16:14:26.936+05:30 DEBUG 16280 --- [SpringBoot-EmployeeManagement] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /attendance/check-in/2
